@@ -17,3 +17,16 @@ function repeatStringNumTimes(str, num) {
 }
 
 repeatStringNumTimes("abc", 3);
+
+// Other solution, not mines, using a for-loop
+/*
+		function repeatStringNumTimes(str, num) {
+		var newstr = [];
+		for (var i = 0; i < num; i++) {
+		  newstr.push(str);
+		}
+		return newstr.join('');
+		}
+
+		repeatStringNumTimes("abc", 3);
+*/
