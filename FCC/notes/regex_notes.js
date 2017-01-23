@@ -44,13 +44,9 @@ var sampleString3 = "Are there a lot of letters in this sting?";
 // String below should save the integer '33'. Try adding a '+' in there, what happens? 
 var findChars = /\S/g;
 
-
-
-
 /*
-**************************
-
- Object Oriented JS Notes
-
-**************************
+          ******* QUICK HANDY-DANDY REGEX *******
 */
+// Both replaces all non-alphaneumeric characters of the string with an empty string, or use anything of your choice.
+var s = str.replace(/[\W_]/g, ""); 
+var q = str.replace(/[^a-z0-9]/g, "");
