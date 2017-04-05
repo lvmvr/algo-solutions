@@ -1,5 +1,5 @@
 /*
-Notes for FreeCodeCamp (since i really fucking lost my notebook at the airport, like dumbass...)
+Notes for FreeCodeCamp (since i really fucking lost my notebook at the airport)
 */
 
 

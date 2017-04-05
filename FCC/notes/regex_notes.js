@@ -43,14 +43,3 @@ var sampleString3 = "Are there a lot of letters in this sting?";
 // For example, "/\S+/g" selects all non-whitespace characters. 
 // String below should save the integer '33'. Try adding a '+' in there, what happens? 
 var findChars = /\S/g;
-
-
-
-
-/*
-**************************
-
- Object Oriented JS Notes
-
-**************************
-*/
