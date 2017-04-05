@@ -15,3 +15,12 @@ function findLongestWord(str) {
 }
 
 findLongestWord("The quick brown fox jumped over the lazy dog");
+
+// NEW SOLUTION, NOT MUCH HAS CHANGED, BUT I GOLFED THIS MF'ER 🙊 ...STILL ON BASIC SHIT BUT YEAH 😒
+return str.split(" ")
+          .sort(function(a, b) {
+            return b.length - a.length;
+          })
+          .shift() // Removes the first el of an arr and returns that val
+          .length; // Gimme them numbas baby!!...nah? Ok then. 😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒
+

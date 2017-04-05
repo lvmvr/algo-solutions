@@ -43,3 +43,25 @@ var sampleString3 = "Are there a lot of letters in this sting?";
 // For example, "/\S+/g" selects all non-whitespace characters. 
 // String below should save the integer '33'. Try adding a '+' in there, what happens? 
 var findChars = /\S/g;
+<<<<<<< HEAD
+||||||| merged common ancestors
+
+
+
+
+/*
+**************************
+
+ Object Oriented JS Notes
+
+**************************
+*/
+=======
+
+/*
+          ******* QUICK HANDY-DANDY REGEX *******
+*/
+// Both replaces all non-alphaneumeric characters of the string with an empty string, or use anything of your choice.
+var s = str.replace(/[\W_]/g, ""); 
+var q = str.replace(/[^a-z0-9]/g, "");
+>>>>>>> 7a842cf460a63d6c04eb4deeda07127e9235f41c
