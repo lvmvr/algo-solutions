@@ -114,9 +114,19 @@ console.log(credentials);
 var myName = credentials.join(" ");
 console.log(myName); // Joins my name by adding space in between each element in the array.
 
+// .splice() method takes in args and either adds/ replaces or deletes items based on inputs
+var arr = [0, 1, 2, 3, 4, 5];
+arr.splice(3, 0, "Three"); // Check index '3', remove '0' items from that index, replace it with str "Three"
+// >> [0, 1, 2, "Three", 4, 5]
 
+var myArr = ["Lamar", "R", "Glenn"];
+myArr.splice(1, 1); // Checks index '1', removes '1' items from that index, no replacements.
+// >> ["Lamar", "Glenn"]
 
-
+// .slice() method takes in args and based on inputs returns copy of arr, original arr not modified
+var arr = [0, 1, 2, 3, 4, 5];
+arr.slice(0,3); // From index '0' and up to (but not incl) index '3', return copy of original arr
+// >> [0, 1, 2]
 
 
 
