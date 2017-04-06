@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-/*
-Notes for FreeCodeCamp (since i really fucking lost my notebook at the airport)
-*/
-
-||||||| merged common ancestors
-/*
-Notes for FreeCodeCamp (since i really fucking lost my notebook at the airport, like dumbass...)
-*/
-
-=======
-                                                     /****   FREE CODE CAMP: NOTES ****/
->>>>>>> 7a842cf460a63d6c04eb4deeda07127e9235f41c
-
 /*
 **************************
 
