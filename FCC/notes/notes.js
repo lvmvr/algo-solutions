@@ -106,7 +106,7 @@ arr.splice(3, 0, "Three"); // Check index '3', remove '0' items from that index,
 // >> [0, 1, 2, "Three", 4, 5]
 
 var myArr = ["Lamar", "R", "Glenn"];
-myArr.splice(1, 1); // Checks index '1', removes '1' items from that index, no replacements.
+myArr.splice(1, 1); // Checks index '1', removes '1' items starting from that index, no replacements.
 // >> ["Lamar", "Glenn"]
 
 // .slice() method takes in args and based on inputs returns copy of arr, original arr not modified
